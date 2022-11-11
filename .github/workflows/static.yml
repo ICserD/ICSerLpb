@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <style>  
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+      background-color: #262626;
+      text-align: center;
+      padding: 40px;
+    ">
+      <img src='https://ts1.cn.mm.bing.net/th/id/R-C.f9231a6227a8a5ef5af4709d2d5d901f?rik=Efknz9RiS%2fsCGQ&riu=http%3a%2f%2fimg.duoziwang.com%2f2017%2f09%2f1523000818958.jpg&ehk=cF%2b1bR4Sd2uOVEDyzWTvh9YSJE%2b4KCzO2k7hq8D2pgU%3d&risl=&pid=ImgRaw&r=0' alt="小全"
+        width="150px" height="150px"
+       > 
+      
+    </div style=
+    "
+      background-color: #000000;
+      max-width: 700px;
+      margin: 30px auto;
+      padding:15px;
+      line-height:1.7;
+      
+    ">
+    <h1 align="center">Welcome to icserm!<h1> 
+    <div style=
+    "
+    background-color: #262626;
+    text-align: center;
+    padding: 40px;
+    font-size: 12px;
+    
+    "
+   >
+    <p><font size="3" color="white">You can do all what you want!</p>
+  </body>
+</html>
