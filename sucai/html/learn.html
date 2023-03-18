@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>icserm</title>
+
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            background-color: #eee;
+            background-image: url("mage.jpg");
+        }
+
+        * {
+            border: 1px solid black;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .baiSe {
+            background-color: white;
+        }
+
+        .flex1 {
+            flex: 1;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .func {
+            flex-direction: row;
+            margin: 2px;
+        }
+
+        .marg {
+            margin: 5px;
+        }
+
+        .headimg {
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            box-shadow: 1px 2px 3px;
+        }
+
+        .touxianglan {
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(54, 52, 51, 0.3);
+            border-radius: 0px 0px 3px 3px;
+
+
+        }
+
+        .cebianlan {
+            background-color: rgba(202, 196, 196, 0.5);
+        }
+
+        .daohang {
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+            box-shadow: 0.5px 0.5px 1px;
+            text-shadow: 1px 1px 1px rgb(77, 92, 99);
+            background-color: rgba(215, 208, 208, 0.3);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body class="flex">
+    <!--侧边栏-->
+    <aside style="width: 200px" class="baiSe cebianlan">
+        <div class="flex touxianglan">
+            <img class="headimg" src="https://pic1.zhimg.com/v2-9ac292837744d9e6dbe2b7939261e5b8_r.jpg?source=1940ef5c"
+                alt="icserm">
+        </div>
+
+        <section class="daohang">简介</section>
+        <section class="daohang">学习总结</section>
+        <section class="daohang">学习资源</section>
+        <section class="daohang">生活感悟</section>
+        <section class="daohang">日常空间</section>
+
+
+    </aside>
+
+    <!--主区域-->
+    <div class="main flex1 column flex">
+        <header class="baiSe marg" style="height: 70px;"></header>
+        <article class="flex flex1">
+            <!--左边-->
+            <aside class="flex flex1 baiSe column marg" style="flex:3">
+
+                <div class=" flex flex1"></div>
+                <div class=" flex flex1"></div>
+                <div class=" flex flex1"></div>
+                <div class=" flex flex1"></div>
+
+            </aside>
+
+            <!--右边-->
+            <aside class="baiSe flex flex1 column marg" style="flex:1"></aside>
+        </article>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
